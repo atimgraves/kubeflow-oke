@@ -1,5 +1,5 @@
 #!/bin/bash -f
-# Copyright (c) 2022, Oracle and/or its affiliates.
+# Copyright (c) 2022-2024, Oracle and/or its affiliates.
 KF_VERSION_BRANCH_NAME=1.8
 KUSTOMIZE_VERSION=5.1.0
 # setup KF and download

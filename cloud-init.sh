@@ -1,7 +1,7 @@
 #!/bin/bash
-# Copyright (c) 2023, Oracle and/or its affiliates.
+# Copyright (c) 2022-2024, Oracle and/or its affiliates.
 
-# The boot folume is setup on a 50gb FS, buf some ML / AI tools require a larger space to handle their images
+# The boot volume is setup on a 50gb FS, buf some ML / AI tools require a larger space to handle their images
 # The TF module lets you set the volume size but it still needs to be grown so do that here.
 sudo /usr/libexec/oci-growfs -y
 # Set it up to install on a reboot
